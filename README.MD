@@ -37,10 +37,6 @@ The Stop Loss Simulator is a Go application designed to simulate order and tick 
    go run main.go
    ```
 
-## Configuration
-
-The application uses a YAML configuration file for settings. Ensure you have a `lookups.yaml` file in the project directory with the necessary configurations.
-
 ## Usage
 
 - **Preload Orders:** The application will automatically preload orders into Redis when started.
